@@ -1,0 +1,18 @@
+#Работа проверена
+begin
+  var n := ReadLnInteger('n =');
+  var k := ReadLnInteger('k =');
+  var a : array of Integer;
+  SetLength(a, n);
+  for var i := 1 to n do a[i-1] := i;
+  n := 0;
+  while a.Length >= k do
+    begin
+      n := (n + k - 1) mod a.Length;
+      for var i := n + 1 to a.Length - 1 do
+        a[i - 1] := a[i];
+      SetLength(a, a.Length - 1);
+    end;
+  foreach var i in a do
+    Print(i);
+end.
