@@ -1,4 +1,4 @@
-#Работа непроверена
+#Работа непроверена 21ю11
 begin
   var n := ReadLnInteger('n =');
   var k := ReadLnInteger('k =');
