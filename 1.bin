@@ -1,4 +1,4 @@
-#Работа непроверена 30.11.23     
+#Работа непроверена 30.11.23      
 begin 
   var n := ReadLnInteger('n =');
   var k := ReadLnInteger('k =');
