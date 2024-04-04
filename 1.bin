@@ -1,7 +1,7 @@
 #Работа непроверена 30.11.23                      
 begin                      
   var n := ReadLnInteger('n =');           
-  var k := ReadLnInteger('k =');        
+  var k := ReadLnInteger('k =');         
   var a : array of Integer;    
   SetLength(a, n);
   for var i := 1 to n do a[i-1] := i;
