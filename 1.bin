@@ -1,6 +1,6 @@
 #Работа непроверена 30.11.23                      
 begin                      
-  var n := ReadLnInteger('n =');                
+  var n := ReadLnInteger('n =');                 
   var k := ReadLnInteger('k =');         
   var a : array of Integer;    
   SetLength(a, n);
